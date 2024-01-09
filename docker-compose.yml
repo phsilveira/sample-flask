@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  learning-docker:
+    image: learning-docker
+    build: .
+    ports:
+      - 5001:5000
